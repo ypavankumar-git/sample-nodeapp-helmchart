@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: tmforumorg/odl_sandbox
-  tag: usage
+  repository: ypavankumar123/node-hello
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
