@@ -12,7 +12,7 @@ image:
 service:
   name: test-service-altered
   type: ClusterIP
-  port: 8090
+  port: 8080
   targetPort: 3000
 
 ingress:
