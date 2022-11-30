@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: ypavankumar123/node-hello
-  tag: latest
+  repository: ypavankumar123/node-hello # {"$imagepolicy": "flux-system:image-policy:name"}
+  tag: latest # {"$imagepolicy": "flux-system:image-policy:tag"}
   pullPolicy: IfNotPresent
 
 service:
