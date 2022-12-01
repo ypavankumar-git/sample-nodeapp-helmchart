@@ -5,7 +5,7 @@
 replicaCount: 1
 image:
   repository: docker.io/ypavankumar123/node-hello # {"$imagepolicy": "flux-system:image-policy:name"}
-  tag: v.2 # {"$imagepolicy": "flux-system:image-policy:tag"}
+  tag: v.3 # {"$imagepolicy": "flux-system:image-policy:tag"}
   pullPolicy: IfNotPresent
 service:
   name: test-service-altered
